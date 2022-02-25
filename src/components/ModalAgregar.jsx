@@ -21,7 +21,7 @@ export default function ModalAgregar() {
     display: 'flex',
     position: 'relative',
     flex: '1 1 auto',
-    padding: '1rem',
+    // padding: '1rem',
     flexDirection: 'row',
     flexWrap: 'wrap',
     margin: '4px 2px',

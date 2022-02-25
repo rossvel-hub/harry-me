@@ -47,7 +47,7 @@
   font-family: 'Roboto', sans-serif !important;
   letter-spacing: 2px !important;
   /* margin: 0px 0px 0px 332px !important; */
-  margin: 0px 0px 0px 500px !important;
+  margin: 0px 0px 0px 490px !important;
 }
 
 .btn-cerrar-modal {
@@ -78,7 +78,8 @@
   border: 1px solid rgba(0,0,0,.2) !important;
   border-radius: 0.3rem !important;
   outline: 0 !important;
-  height: 75vh !important;
+  height: 100vh !important;
+  margin: 0px 0px 0px 0px !important;
 }
 
 .input-focus {

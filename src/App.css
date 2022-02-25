@@ -46,7 +46,8 @@
   font-weight: 600 !important;
   font-family: 'Roboto', sans-serif !important;
   letter-spacing: 2px !important;
-  margin: 0px 36px 0px 0px !important;
+  /* margin: 0px 0px 0px 332px !important; */
+  margin: 0px 0px 0px 500px !important;
 }
 
 .btn-cerrar-modal {
@@ -65,6 +66,19 @@
   border-radius: 8px !important;
   color: darkslateblue !important;
   font-weight: 800;
+}
+.modal-content {
+  position: relative !important;
+  display: flex !important;
+  flex-direction: column !important;
+  width: 100% !important;
+  pointer-events: auto !important;
+  background-color: #fff !important;
+  background-clip: padding-box !important;
+  border: 1px solid rgba(0,0,0,.2) !important;
+  border-radius: 0.3rem !important;
+  outline: 0 !important;
+  height: 75vh !important;
 }
 
 .input-focus {
@@ -86,25 +100,29 @@
 
 
 .btn-guardar-modal {
-align-items: center !important;
-display: block !important;
-color: white !important;
-font-size: 17px !important;
-letter-spacing: 2px !important;
-width: 288px !important;
-height: 67px !important;
-margin: 50px !important;
-border-width: 4px !important;
-border-style: solid !important;
-border-color: #6B63B5 !important;
-background-color: rgb(0, 0, 0, 0.6) !important;
-cursor: pointer !important;
-right: 50px !important; 
-text-align: center !important;
+  align-items: center !important;
+  display: block !important;
+  color: white !important;
+  font-size: 17px !important;
+  letter-spacing: 2px !important;
+  width: 143px !important;
+  height: 40px !important;
+  margin: 50px !important;
+  border-width: 4px !important;
+  border-style: solid !important;
+  border-color: #6B63B5 !important;
+  background-color: rgb(0, 0, 0, 0.6) !important;
+  cursor: pointer !important;
+  right: 50px !important;
+  text-align: center !important;
 }
 
 .btn-guardar-modal:hover {
   background-color: #6B63B5;
+}
+
+.title {
+  margin-top: 140px !important;
 }
 .title-logo {
   max-width: 26%;
@@ -191,7 +209,7 @@ cursor: pointer;
 /*MQ*/
 /* / Tablets en horizonal y escritorios normale */
   
-@media (min-width: 767px) and (max-width: 1199px) { 
+/* @media (min-width: 767px) and (max-width: 1199px) { 
   .agregar-modal{
     display: block;
     cursor: pointer;
@@ -244,11 +262,11 @@ cursor: pointer;
   outline: 0;
   height: 90vh !important;
 }
- }
+ } */
  
 /* Móviles en horizontal o tablets en vertical */
    
-@media (max-width: 766px) { 
+/* @media (max-width: 766px) { 
 
   .btn-dropdown {
     color: #fff !important;
@@ -293,11 +311,10 @@ cursor: pointer;
 
 .bloque-options {
   margin-top: 14px !important;
-    display: flex !important;
-    flex-direction: column !important;
-    font-size: 12px !important;
-    /* right: 17px; */
-    padding: 25px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  font-size: 12px !important;
+  padding: 25px !important;
 }
 
 .title-logo {
@@ -311,15 +328,15 @@ cursor: pointer;
 
 .container-cards {
   height: 100%;
-    width: 100%;
-    display: flex;
-    border-width: 4px;
-    border-style: solid;
-    border-radius: 5px;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    background-color: black;
-    margin-top: -20px !important;
+  width: 100%;
+  display: flex;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 5px;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  background-color: black;
+  margin-top: -20px !important;
 }
 
 .name {
@@ -377,10 +394,10 @@ cursor: pointer;
 }
 
  }
- 
+  */
 /* Móviles en vertical */
    
-@media (max-width: 480px) { 
+/* @media (max-width: 480px) { 
 
   .agregar-modal{
     display: block;
@@ -420,13 +437,9 @@ cursor: pointer;
   letter-spacing: 2px;
   width: 288px;
   height: 67px;
-  /* margin: 119px !important; */
-  border-width: 4px;
   border-style: solid;
   border-color: #6B63B5;
   background-color: rgb(0, 0, 0, 0.6);
-  /* margin-button: 18px;
-  margin-top: 1px */
   margin: 0px 0px 128px 0px !important;
 }
 
@@ -473,4 +486,4 @@ cursor: pointer;
   margin: 4px 2px;
   height: 77vh !important;
 }
-}
+} */

@@ -36,7 +36,7 @@ export default function Cards() {
         flexWrap: 'wrap',
         justifyContent: 'space-around',
         backgroundColor: 'black',
-        marginTop: '-70px'
+        marginTop: '0px'
     }
 
     const cardStyles = {

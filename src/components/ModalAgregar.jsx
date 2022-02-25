@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Modal, ModalHeader, ModalBody, ModalFooter, FormGroup, Input, Label, Button } from 'reactstrap';
+import { Modal, ModalHeader, ModalBody, FormGroup, Input, Label, Button } from 'reactstrap';
 
 export default function ModalAgregar() {
   const [modal, setModal] = useState(false);
@@ -37,7 +37,7 @@ export default function ModalAgregar() {
         </div>
       </div>
 
-      <Modal isOpen={modal} style={modalStyles}>
+      <Modal className="modal-content" isOpen={modal} style={modalStyles}>
         <ModalHeader>
           <Button className="btn-cerrar-modal" onClick={() => abrirCerarModal()}>X</Button>
           AGREGAR UN PERSONAJE

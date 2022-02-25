@@ -43,10 +43,6 @@ Abra [http://localhost:3000](http://localhost:3000) para verlo en su navegador.
 La página se volverá a cargar cuando realice cambios.
 
 
-### `npm test`
-
-Para correr las pruebas unitarias
-
 ### `npm run fake-api`
 
 Para correr la data

@@ -7,23 +7,23 @@ import Favorito from '../assets/favorito.png';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import axios from 'axios';
-const baseUrl='http://localhost:5000/tipo';
+// import axios from 'axios';
+// const baseUrl='http://localhost:5000/tipo';
 
 export default function Cards() {
 
-    const [data, setData]= useState([]);
+    // const [data, setData]= useState([]);
 
-    const peticionGet=async()=>{
-        await axios.get(baseUrl)
-        .then(response=>{
-            console.log(response.data);
-        })
-    }
+    // const peticionGet=async()=>{
+    //     await axios.get(baseUrl)
+    //     .then(response=>{
+    //         console.log(response.data);
+    //     })
+    // }
 
-    useEffect(async()=>{
-        await peticionGet();
-    },[])
+    // useEffect(async()=>{
+    //     await peticionGet();
+    // },[])
 
     const containerCardsStyle = {
         height: '100%',

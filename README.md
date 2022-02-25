@@ -77,7 +77,7 @@ Aun con eso y la basico de la app que desarrolle, estoy satisfecha con los resul
 
 Mi principal error fue creer que habia asimilado los requerimientos y querer volar para que no me ganara el tiempo, mi aprendizaje sobre esto: dDebo asimilar los requerimientos del proyecto, priorizar actividades, desarrollar el proyectos por etapas. Siempre mantener el enfoque de cada tarea y llevarla paso a paso.
 
-Esto es sin duda un dia a dia de quien inicia en este mercado laboral, si bien las raíces del estudio son amargas...el fruto de este será eternamente dulce.  
+Esto es sin duda un dia a dia de quien inicia en este mercado laboral, si bien las raíces del estudio son amargas...el fruto de este será eternamente dulce. It is what it is.
 
 
 </br></br>

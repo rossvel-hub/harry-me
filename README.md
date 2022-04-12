@@ -6,8 +6,6 @@ Stack tecnologico del proyecto:
 
 >ReactStrap
 
->Boostrap
-
 >Css
 
 >Flexbox
